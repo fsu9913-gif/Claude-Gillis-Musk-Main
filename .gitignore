@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*.orig
+
+# Logs (keep directory structure, ignore generated content)
+logs/daily/*.md
+logs/weekly/*.md
+!logs/.gitkeep
+
+# Projects scaffolded locally (each manages its own git)
+projects/
+
+# Temp
+/tmp/
+*.tmp
