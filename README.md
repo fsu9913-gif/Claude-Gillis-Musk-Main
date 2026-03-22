@@ -41,6 +41,7 @@ knowledge base.  It captures:
 | Key shortcuts | — | [Key Operations](docs/key-operations.md) |
 | Cheat sheet | — | [Quick Reference](docs/quick-reference.md) |
 | Google SSO setup | — | [Google SSO Runbook](docs/google-sso-access-runbook.md) |
+| Safari launch issue | `scripts/macos-safari-cursor-check.sh` | [Safari/Cursor Troubleshooting](docs/safari-cursor-launch-troubleshooting.md) |
 
 ---
 
@@ -85,6 +86,7 @@ to configure secure Google-based access for Cloudflare, GitHub, and Claude.
 | [`scripts/daily-end.sh`](scripts/daily-end.sh) | Runs end-of-day wrap-up |
 | [`scripts/weekly-review.sh`](scripts/weekly-review.sh) | Generates weekly status summary |
 | [`scripts/new-project.sh`](scripts/new-project.sh) | Scaffolds a new project directory |
+| [`scripts/macos-safari-cursor-check.sh`](scripts/macos-safari-cursor-check.sh) | Diagnoses/fixes Safari launch issues on macOS |
 
 ---
 

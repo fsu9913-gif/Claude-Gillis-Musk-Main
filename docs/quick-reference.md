@@ -98,6 +98,7 @@ chore/<description>
 | `scripts/daily-end.sh` | `bash scripts/daily-end.sh` | EOD wrap-up |
 | `scripts/weekly-review.sh` | `bash scripts/weekly-review.sh` | Weekly summary |
 | `scripts/new-project.sh` | `bash scripts/new-project.sh "Name"` | Scaffold project |
+| `scripts/macos-safari-cursor-check.sh` | `bash scripts/macos-safari-cursor-check.sh --run-open-test` | Diagnose Safari launch failures on macOS |
 
 ---
 
