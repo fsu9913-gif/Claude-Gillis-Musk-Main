@@ -11,9 +11,10 @@ operational procedures, and key command / tool usage.
 2. [Quick Reference](#quick-reference)
 3. [Workflow Documentation](#workflow-documentation)
 4. [Key Operations](#key-operations)
-5. [Scripts](#scripts)
-6. [Templates](#templates)
-7. [Contributing](#contributing)
+5. [Authentication Runbook](#authentication-runbook)
+6. [Scripts](#scripts)
+7. [Templates](#templates)
+8. [Contributing](#contributing)
 
 ---
 
@@ -39,6 +40,8 @@ knowledge base.  It captures:
 | Weekly review | `scripts/weekly-review.sh` | [Workflow](docs/workflow.md) |
 | Key shortcuts | — | [Key Operations](docs/key-operations.md) |
 | Cheat sheet | — | [Quick Reference](docs/quick-reference.md) |
+| Google SSO setup | — | [Google SSO Runbook](docs/google-sso-access-runbook.md) |
+| Safari launch issue | `scripts/macos-safari-cursor-check.sh` | [Safari/Cursor Troubleshooting](docs/safari-cursor-launch-troubleshooting.md) |
 
 ---
 
@@ -68,6 +71,13 @@ reference of every key operation Bryan uses, organized by category:
 
 ---
 
+## Authentication Runbook
+
+Use **[docs/google-sso-access-runbook.md](docs/google-sso-access-runbook.md)**
+to configure secure Google-based access for Cloudflare, GitHub, and Claude.
+
+---
+
 ## Scripts
 
 | Script | Purpose |
@@ -76,6 +86,7 @@ reference of every key operation Bryan uses, organized by category:
 | [`scripts/daily-end.sh`](scripts/daily-end.sh) | Runs end-of-day wrap-up |
 | [`scripts/weekly-review.sh`](scripts/weekly-review.sh) | Generates weekly status summary |
 | [`scripts/new-project.sh`](scripts/new-project.sh) | Scaffolds a new project directory |
+| [`scripts/macos-safari-cursor-check.sh`](scripts/macos-safari-cursor-check.sh) | Diagnoses/fixes Safari launch issues on macOS |
 
 ---
 

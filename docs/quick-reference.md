@@ -98,6 +98,17 @@ chore/<description>
 | `scripts/daily-end.sh` | `bash scripts/daily-end.sh` | EOD wrap-up |
 | `scripts/weekly-review.sh` | `bash scripts/weekly-review.sh` | Weekly summary |
 | `scripts/new-project.sh` | `bash scripts/new-project.sh "Name"` | Scaffold project |
+| `scripts/macos-safari-cursor-check.sh` | `bash scripts/macos-safari-cursor-check.sh --run-open-test` | Diagnose Safari launch failures on macOS |
+
+---
+
+## Security & Access
+
+- Google SSO runbook:
+  [`docs/google-sso-access-runbook.md`](google-sso-access-runbook.md)
+- Primary accounts:
+  - `bgillis99` mapped to a full Google identity
+  - `admin@mobilecarsmoketest.com`
 
 ---
 

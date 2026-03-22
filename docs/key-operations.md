@@ -15,6 +15,7 @@ across all areas of work.  Organized by category for quick lookup.
 6. [Networking & Remote Access](#6-networking--remote-access)
 7. [Communication & Scheduling Tools](#7-communication--scheduling-tools)
 8. [Reporting & Documentation](#8-reporting--documentation)
+9. [Identity & Access](#9-identity--access)
 
 ---
 
@@ -220,3 +221,16 @@ docs/<description>
 | Create GitHub PR | `gh pr create` | |
 | View PR status | `gh pr status` | |
 | Merge PR | `gh pr merge --squash` | |
+
+---
+
+## 9. Identity & Access
+
+| Operation | Command / Action | Notes |
+|-----------|------------------|-------|
+| Verify Google login | Sign in at `https://accounts.google.com` | Use full email identity |
+| Check Google 2SV | Google Account -> Security -> 2-Step Verification | Require passkey/security key + backup |
+| Validate Cloudflare SSO | Cloudflare Zero Trust -> Settings -> Authentication | Restrict to approved users/domains |
+| Validate GitHub org SSO | Org -> Security -> Authentication security | Use SAML SSO with Google Workspace |
+| Validate Claude Google login | Use "Continue with Google" | If blocked, review Workspace OAuth app policy |
+| Review auth runbook | `docs/google-sso-access-runbook.md` | Canonical setup and recovery steps |
