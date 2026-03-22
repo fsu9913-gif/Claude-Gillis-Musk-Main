@@ -101,6 +101,16 @@ chore/<description>
 
 ---
 
+## Security & Access
+
+- Google SSO runbook:
+  [`docs/google-sso-access-runbook.md`](google-sso-access-runbook.md)
+- Primary accounts:
+  - `bgillis99` mapped to a full Google identity
+  - `admin@mobilecarsmoketest.com`
+
+---
+
 ## Templates Reference
 
 | Template | Purpose |

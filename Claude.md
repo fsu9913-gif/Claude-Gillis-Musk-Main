@@ -10,6 +10,7 @@ This repository documents **Bryan's workflow and key operation uses**.
 | [docs/workflow.md](docs/workflow.md) | Full workflow: daily, weekly, and monthly routines |
 | [docs/key-operations.md](docs/key-operations.md) | Reference for all key commands and tool uses |
 | [docs/quick-reference.md](docs/quick-reference.md) | One-page cheat sheet |
+| [docs/google-sso-access-runbook.md](docs/google-sso-access-runbook.md) | Secure Google login setup for Cloudflare, GitHub, and Claude |
 
 ## Scripts
 

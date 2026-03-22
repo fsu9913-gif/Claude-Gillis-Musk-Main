@@ -158,8 +158,11 @@ cycles.
 1. **Audit all active projects** — are they on track, at risk, or blocked?
 2. **Review key metrics** — velocity, defect rate, communication health.
 3. **Archive completed projects** per the archival procedure.
-4. **Update documentation** — ensure this repo reflects current practice.
-5. **1-on-1 with manager / key stakeholder** to align on priorities for the
+4. **Review account security posture**:
+   - Verify Google SSO access and audit logs for Cloudflare, GitHub, and Claude
+     using [google-sso-access-runbook.md](google-sso-access-runbook.md).
+5. **Update documentation** — ensure this repo reflects current practice.
+6. **1-on-1 with manager / key stakeholder** to align on priorities for the
    coming month.
 
 ---

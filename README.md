@@ -11,9 +11,10 @@ operational procedures, and key command / tool usage.
 2. [Quick Reference](#quick-reference)
 3. [Workflow Documentation](#workflow-documentation)
 4. [Key Operations](#key-operations)
-5. [Scripts](#scripts)
-6. [Templates](#templates)
-7. [Contributing](#contributing)
+5. [Authentication Runbook](#authentication-runbook)
+6. [Scripts](#scripts)
+7. [Templates](#templates)
+8. [Contributing](#contributing)
 
 ---
 
@@ -39,6 +40,7 @@ knowledge base.  It captures:
 | Weekly review | `scripts/weekly-review.sh` | [Workflow](docs/workflow.md) |
 | Key shortcuts | — | [Key Operations](docs/key-operations.md) |
 | Cheat sheet | — | [Quick Reference](docs/quick-reference.md) |
+| Google SSO setup | — | [Google SSO Runbook](docs/google-sso-access-runbook.md) |
 
 ---
 
@@ -65,6 +67,13 @@ reference of every key operation Bryan uses, organized by category:
 - Scripting & automation
 - Communication & scheduling tools
 - Monitoring & reporting
+
+---
+
+## Authentication Runbook
+
+Use **[docs/google-sso-access-runbook.md](docs/google-sso-access-runbook.md)**
+to configure secure Google-based access for Cloudflare, GitHub, and Claude.
 
 ---
 
